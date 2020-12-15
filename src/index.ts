@@ -11,7 +11,7 @@ import {
   Sha,
   updateRef,
   withTemporaryRef,
-} from "shared-github-internals/lib/git";
+} from "./git";
 
 const debug = createDebug("github-cherry-pick");
 

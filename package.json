@@ -3,9 +3,15 @@
   "dependencies": {
     "@octokit/rest": "^18.0.12",
     "@types/debug": "^4.1.4",
+    "@types/execa": "^0.9.0",
     "@types/node": "^11.13.8",
-    "debug": "^4.1.1",
-    "shared-github-internals": "^1.1.1"
+    "@types/tempy": "^0.3.0",
+    "@types/uuid": "^3.4.4",
+    "envalid": "^5.0.0",
+    "execa": "^1.0.0",
+    "tempy": "^0.3.0",
+    "uuid": "^3.3.2",
+    "debug": "^4.1.1"
   },
   "description": "Cherry-pick several commits on a branch using the low level Git Data operations provided by the GitHub REST API",
   "devDependencies": {
