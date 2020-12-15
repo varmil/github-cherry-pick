@@ -1,16 +1,10 @@
-[![npm version](https://img.shields.io/npm/v/github-cherry-pick.svg)](https://npmjs.org/package/github-cherry-pick) [![build status](https://img.shields.io/circleci/project/github/tibdex/github-cherry-pick.svg)](https://circleci.com/gh/tibdex/github-cherry-pick)
+`npm i githubapi-cherry-pick`
 
 # Goal
 
 `github-cherry-pick` cherry-picks several commits on a branch using [the low level Git Data operations provided by the GitHub REST API](https://developer.github.com/v3/git/).
 
 It's the building block of [`github-backport`](https://www.npmjs.com/package/github-backport) and [`github-rebase`](https://www.npmjs.com/package/github-rebase).
-
-# Maintenance update
-
-This library was developed to make [Autorebase](https://github.com/tibdex/autorebase) possible but focus has shifted to the development of its successor: [Autosquash](https://github.com/marketplace/actions/autosquash).
-
-This project will thus stop receiving updates.
 
 # Usage
 
