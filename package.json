@@ -46,7 +46,8 @@
     "prepublishOnly": "yarn build",
     "prettier": "prettier --ignore-path .gitignore \"**/*.{js,json,md,ts,yml}\"",
     "test": "jest",
-    "tslint": "tslint --format stylish --project ."
+    "tslint": "tslint --format stylish --project .",
+    "patch": "npm version patch && git push origin --tags && npm publish ./"
   },
   "version": "1.2.1"
 }
